@@ -1,3 +1,5 @@
+import HeroCarousel from "@/components/HeroCarousel";
+import SearchBar from "@/components/SearchBar";
 import Image from "next/image";
 import React from "react";
 
@@ -26,9 +28,9 @@ const Home = () => {
             Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more.
           </p>
-          SearchBar
+          <SearchBar/>
         </div>
-        Hero Carousel
+        <HeroCarousel/>
       </div>
     </section>
     
