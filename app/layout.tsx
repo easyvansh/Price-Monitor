@@ -1,4 +1,5 @@
-import Navbar from '@/components/Navbar'
+
+import Navbar from '@/components/NavBar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
@@ -10,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
  })
 
 export const metadata: Metadata = {
-  title: 'Pricewise',
+  title: 'Price Monitor',
   description: 'Track product prices effortlessly and save money on your online shopping.',
 }
 
